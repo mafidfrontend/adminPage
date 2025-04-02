@@ -7,7 +7,7 @@ function App() {
 const stateTokin = useMyStor()
   return (
     <>
-      {stateTokin.user ? <Navbar /> : <LoginPage />}
+      {stateTokin.accessToken ? <Navbar /> : <LoginPage />}
     </>
   );
 }
