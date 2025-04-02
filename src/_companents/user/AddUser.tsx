@@ -69,7 +69,7 @@ function AddUser({ ozgarish, isOpenDraver, setOpenDraver }: any) {
           </Form.Item>
           <Form.Item
             name="password"
-            label="pasvord"
+            label="password"
             rules={[{ required: true }]}
           >
             <Input placeholder="Foydalanuvchi ismi" />
